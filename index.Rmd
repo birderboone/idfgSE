@@ -1,0 +1,193 @@
+---
+title       : Matthew E. Boone
+job         : Interview - Software Engineer III (Idaho Fish and Game)
+logo        : headshot_logo.png
+highlighter : prettify  # {highlight.js, prettify, highlight}
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+footer      : "github.com/birderboone/idfgSE"
+knit        : "slidify::knit2slides"
+---
+
+## Summary
+
+- Brief History
+- Citizen Science data
+- Spatial Analysis
+- Database management
+- HTML
+- Software Development
+
+--- 
+
+## History
+<div style="position:absolute;left:150px;top:200px">
+```{r, echo = FALSE}
+library(knitr)
+library(kableExtra)
+here <- data.frame(Time = c(
+  "2005 - 2009","2009 - 2013","2014 - 2016", "2016 - 2017", "2017 - 2019", "2018 - 2020"
+),
+Job = c(
+  "University of Texas (BSc Ecology, Evolution, & Behavior)",
+  "Field work",
+  "University of Delaware (MSc Wildlife Ecology)",
+  "Kauai Endangered Seabird Recovery Project (DB Manager & Analyst)",
+  "Independent Data Consultant",
+  "University of Florida - Ft. Lauderdale Extension Center (DB Manager & Analyst)"
+))
+kable(here, table.attr = "class=\"striped\" style='width:100%;'", 
+  format = "html") %>% row_spec(c(0,1,3,5), background = "white") %>% row_spec(c(2,4,6), background = 'lightgray') %>% 
+kable_styling(latex_options =c("striped"), font_size=35) %>% column_spec(c(1,2), border_left = "2px solid gray", border_right = "2px solid gray", include_thead =T)
+```
+</div>
+<!-- Want to mention the amount of agencies i've worked with --->
+
+--- &vcenter bg:black
+<div style="color:white;font-size:50">
+Statement of purpose
+</div>
+
+---
+
+## Working with Citizen Science Data
+<div style='position:absolute;right:200px'>
+<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/morningbird.jpg" width = 800px>
+</div>
+<div style='background-color: rgba(255,255,255,0.7); width:500px;"color:white"; position:absolute; left:150px;top:150px;z-index=100;border:3px solid black;' >
+<ul>
+<li>eBird reviewer for 8 years</li>
+<li>iNaturalist</li>
+<li>Lead bird walks</li>
+<li>UF Broward County Bioblitz co-coordinator</li>
+</ul>
+</div>
+
+---
+
+## Working with Citizen Science Data - GBIF
+<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/termite_combined_world.png" width = 890px>
+
+<div style='background-color: rgba(255,255,255,0.8); width:450px;"color:white"; position:absolute; right:180px;top:170px;z-index=100;border:3px solid black;color:#444;padding-right:10px;' >
+<ul>
+<li>Global Biodiversity Information Facility (GBIF)</li>
+<li>Citizen Science (CS) and expert data sets can complement each other when used effectively.</li>
+</ul>
+</div>
+
+<div style='position:absolute; right:155px; top:590px;z-index=150;font-size: x-small;'>
+<strong>Hochmair, H., Scheffrahn, R., Basille, M., Boone, M.</strong> <i>Evaluating the data quality of iNaturalist termite records.</i> <br>
+<strong>PLoSONE</strong> (2020) 15.5: e0226534. <a href="https://doi.org/10.1371/journal.pone.0226534">10.1371/journal.pone.0226534</a> 
+</div>
+
+---
+
+## Working with Citizen Science Data - Data Gaps
+<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/US_CS2.png" width = 860px>
+
+<div style='background-color: rgba(255,255,255,0.8); width:450px;"color:white"; position:absolute; right:195px;top:190px;z-index=100;border:3px solid black;color:#444;padding-right:10px;' >
+<ul>
+<li>264M US avian records</li>
+<li>PostGRES w/ PostGIS extension</li>
+<li>10+ raster layers (environmental, geographic, topographic)</li>
+</ul>
+</div>
+
+---
+
+## Spatial Apps - nestR
+<div style='position:absolute;right:200px'>
+<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/Screenshot from 2020-08-26 14-07-26.png" width = 780px>
+</div>
+<div style='background-color: rgba(255,255,255,0.8); width:500px;"color:white"; position:absolute; right:210px;top:150px;z-index=100;border:3px solid black;color:#444;padding-right:10px;' >
+<ul>
+<li>Built in Shiny (r - html app interface)</li>
+<li>Calculate nesting locations from GPS points</li>
+<li>Spatially explore points with Leaflet</li>
+<li>Available R package on github <a href=http:://github.com/picardis/nestR'>picardis/nestR</a></li>
+</ul>
+</div>
+
+---
+
+## Spatial Apps - eBird Filter apps
+<!-- <div style='position:absolute;right:200px'> -->
+<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/Screenshot from 2020-08-26 15-11-01.png" width = 850px>
+<!-- </div> -->
+<div style='background-color: rgba(255,255,255,0.8); width:500px;"color:white"; position:absolute; right:210px;top:145px;z-index=100;border:3px solid black;color:#444;padding-right:10px;margin-bottom:0px;' >
+<ul>
+<li>Built in Shiny (r - html app interface)</li>
+<li>Help Tx eBird reviewers create accurate species filters for 254 counties</li>
+<li>Identify problematic county filters</li>
+<li>Explore species presence through time</li>
+</ul>
+</div>
+
+---
+
+## Technology history
+
+- Masters : 
+ - <b>Windows OS</b>
+ - <b>mySQL</b> for eBird analysis
+ - radar analysis in <b>arcGIS</b> and <b>R</b>
+
+---
+
+## Technology history
+
+- Masters : 
+- Kauai Endangered Seabird Recovery Project :
+ - <b>Windows OS</b>
+ - Field collection on <b>iPads</b> via <b>iForm</b>
+ - synced to an <b>AccessDB</b> via <b>VDB</b>
+ - GUI using <b>arcGIS</b>
+
+--- 
+
+## Technology history
+<ul>
+<li>Masters :</li>
+<li>Kauai Endangered Seabird Recovery Project :</li>
+<li>UFL - Ft. Lauderdale Extension : 
+ <ul>
+  
+ <li><b>Linux (Ubuntu/Debian)</b></li>
+ <li><b>postGRES</b>/<b>PostGIS</b> for data & raster layers</li>
+ <li>Managed through <b>pgAdmin</b> and <b>R (RPostGIS)</b></li>
+ <li>DBs connection to <b>QGIS</b></li>
+ <li>Website creation using <b>Hugo Academic (R)</b> & <b>jekyll</b></li>
+ <li>interactive <a href="https://rociojoo.github.io/mov-eco-review/">Bookdowns for Manuscripts</a></li>
+ </ul>
+</li> 
+</ul> 
+
+--- 
+
+## Software Development
+
+- radarR : 2016
+- nestR : 2018
+- refsplitR : 2019
+- sftrack : 2020
+
+--- 
+
+## Software Development - sftrack
+
+--- 
+
+## Software Development - sftrack
+
+--- 
+
+## Software Development - sftrack
+
+---
+
+## Teaching
+<div style='position:absolute;right:250px'>
+<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/D3FmX4eXgAA6Eej.jpeg" width=750px>
+</div>

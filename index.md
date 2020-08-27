@@ -218,7 +218,7 @@ I want to help the scientists collect data easier and make the results of the sc
 
 
 <div style="position:absolute;right:160px;top:170px">
-<img src="/home/matt/r_programs/idfgSE/assets/img/plot_zoom_png.png" width=540px>
+<img src="assets/img/plot_zoom_png.png" width=540px>
 </div>
 
 --- &vcenter bg:url(assets/img/background2.png);background-size:contain;
@@ -227,7 +227,7 @@ I want to help the scientists collect data easier and make the results of the sc
 
 ### Planning meetings and original outlines
 <center>
-<img src="/home/matt/r_programs/idfgSE/assets/img/conceptual-model.png" width=500px>
+<img src="assets/img/conceptual-model.png" width=500px>
 </center>
 
 <div style="position:absolute;top:20px;right:170px">

@@ -63,7 +63,9 @@ knit        : "slidify::knit2slides"
 
 --- &vcenter bg:black
 <div style="color:white;font-size:50">
-Statement of purpose
+"I am a software developer trained as an ecologist that wants to build applications and software for biologists and the public. 
+
+I want to help the scientists collect data easier and make the results of the science more accessible to the public."
 </div>
 
 ---
@@ -238,4 +240,6 @@ Statement of purpose
 
 ## Thank you!
 
-You can find this presentation at: http://github.com/birderboone/idfgSE
+You can view this presentation at : http://birderboone.github.io/idfgSE
+
+And find the assets at http://github.com/birderboone/idfgSE

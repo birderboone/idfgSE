@@ -72,7 +72,7 @@ I want to help the scientists collect data easier and make the results of the sc
 
 ## Working with Citizen Science
 <div style='position:absolute;left:65px; top:110px'>
-<img src="/home/matt/r_programs/idfgSE/assets/img/morningbird_crop.jpg" width = 810px>
+<img src="assets/img/morningbird_crop.jpg" width = 810px>
 </div>
 <div style='background-color: rgba(255,255,255,0.7); width:500px;"color:white"; position:absolute; left:85px;top:130px;z-index=100;border:3px solid black;' >
 <ul>
@@ -86,7 +86,7 @@ I want to help the scientists collect data easier and make the results of the sc
 ---
 
 ## Working with Citizen Science - GBIF
-<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/termite_combined_world.png" width = 890px>
+<img src="assets/img/termite_combined_world.png" width = 890px>
 
 <div style='background-color: rgba(255,255,255,0.8); width:450px;"color:white"; position:absolute; right:180px;top:170px;z-index=100;border:3px solid black;color:#444;padding-right:10px;' >
 <ul>
@@ -103,7 +103,7 @@ I want to help the scientists collect data easier and make the results of the sc
 ---
 
 ## Working with Citizen Science Data - Data Gaps
-<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/US_CS2.png" width = 860px>
+<img src="assets/img/US_CS2.png" width = 860px>
 
 <div style='background-color: rgba(255,255,255,0.8); width:450px;"color:white"; position:absolute; right:195px;top:175px;z-index=100;border:3px solid black;color:#444;padding-right:10px;' >
 <ul>
@@ -117,7 +117,7 @@ I want to help the scientists collect data easier and make the results of the sc
 
 ## Spatial Apps - nestR
 <div style='position:absolute;right:200px'>
-<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/Screenshot from 2020-08-26 14-07-26.png" width = 780px>
+<img src="assets/img/Screenshot from 2020-08-26 14-07-26.png" width = 780px>
 </div>
 <div style='background-color: rgba(255,255,255,0.8); width:500px;"color:white"; position:absolute; right:210px;top:150px;z-index=100;border:3px solid black;color:#444;padding-right:10px;' >
 <ul>
@@ -132,7 +132,7 @@ I want to help the scientists collect data easier and make the results of the sc
 
 ## Spatial Apps - eBird Filter apps
 <!-- <div style='position:absolute;right:200px'> -->
-<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/Screenshot from 2020-08-26 15-11-01.png" width = 850px>
+<img src="assets/img/Screenshot from 2020-08-26 15-11-01.png" width = 850px>
 <!-- </div> -->
 <div style='background-color: rgba(255,255,255,0.8); width:500px;"color:white"; position:absolute; right:210px;top:145px;z-index=100;border:3px solid black;color:#444;padding-right:10px;margin-bottom:0px;' >
 <ul>
@@ -241,7 +241,7 @@ I want to help the scientists collect data easier and make the results of the sc
 ### ... to Beta stage
 
 <center>
-<img src="/home/matt/r_programs/idfgSE/assets/img/image12.png" width=600px>
+<img src="assets/img/image12.png" width=600px>
 </center>
 
 <div style="position:absolute;top:20px;right:170px">
@@ -252,7 +252,7 @@ I want to help the scientists collect data easier and make the results of the sc
 
 ## Teaching
 <div style='position:absolute;right:250px'>
-<img src="/home/matt/Documents/IDFG_presentation/IDFG_pres/assets/img/D3FmX4eXgAA6Eej.jpeg" width=750px>
+<img src="assets/img/D3FmX4eXgAA6Eej.jpeg" width=750px>
 </div>
 
 ---

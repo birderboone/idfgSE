@@ -1,0 +1,17 @@
+<slide class="{{ slide.class }}" id="{{ slide.id }}" style="background:{{{ slide.bg }}};">
+<h2 style="color:white">
+  {{{ slide.header }}}
+</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+{{{ slide.content }}}
+</article>
+<!-- Presenter Notes -->
+{{# slide.pnotes}}
+<aside class="note">
+  <section>
+    {{{ html }}}
+  </section>
+</aside>
+{{/ slide.pnotes}}
+</slide>

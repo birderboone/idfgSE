@@ -137,6 +137,10 @@ I want to help the scientists collect data easier and make the results of the sc
  - <b>Windows OS</b>
  - <b>mySQL</b> for eBird analysis
  - Radar analysis in <b>arcGIS</b> and <b>R</b>
+ 
+ <div style="position:absolute;top:0px;right:120px">
+<img src = "assets/img/UDsandy.png" width = 380px>
+</div>
 
 ---
 
@@ -148,6 +152,10 @@ I want to help the scientists collect data easier and make the results of the sc
  - Field collection on <b>iPads</b> via <b>iForm</b>
  - Synced to an <b>AccessDB</b> via <b>VDB</b>
  - GUI using <b>arcGIS</b>
+
+<div style="position:absolute;top:200px;right:160px">
+<img src = "assets/img/HAPE_zoomout.png" width = 440px>
+</div>
 
 --- 
 
@@ -162,7 +170,7 @@ I want to help the scientists collect data easier and make the results of the sc
  <li><b>postGRES</b>/<b>PostGIS</b> for data & raster layers</li>
  <li>Managed through <b>pgAdmin</b> and <b>R (RPostGIS)</b></li>
  <li>DBs connection to <b>QGIS</b></li>
- <li>Website/presentations using <b>Hugo</b>,<b>Jekyll</b>, & <b>slidy (this presentation!)</b></li>
+ <li>Website/presentations using <b>Hugo</b>, <b>Jekyll</b>, & <b>slidy (this presentation!)</b></li>
  <li>Interactive <a href="https://rociojoo.github.io/mov-eco-review/">Bookdowns for Manuscripts</a></li>
  </ul>
 </li> 
@@ -188,10 +196,14 @@ I want to help the scientists collect data easier and make the results of the sc
 - Transparent build process
 - <a href="http://github.com/mablab/sftrack">github.com/mablab/sftrack</a>
 
-<center>
-<img src="/home/matt/r_programs/idfgSE/assets/img/sftrack-social.png" width=500px>
-</center>
+<div style="position:absolute;top:20px;right:170px">
+<img src="assets/img/sftrack-logo-200-white-bg.png" width=100px>
+</div>
 
+
+<div style="position:absolute;right:160px;top:170px">
+<img src="/home/matt/r_programs/idfgSE/assets/img/plot_zoom_png.png" width=540px>
+</div>
 
 --- &vcenter bg:url(assets/img/background2.png);background-size:contain;
 
@@ -201,6 +213,10 @@ I want to help the scientists collect data easier and make the results of the sc
 <center>
 <img src="/home/matt/r_programs/idfgSE/assets/img/conceptual-model.png" width=500px>
 </center>
+
+<div style="position:absolute;top:20px;right:170px">
+<img src="assets/img/sftrack-logo-200-white-bg.png" width=100px>
+</div>
 
 --- &vcenter bg:url(assets/img/background2.png);background-size:contain;
 
@@ -212,6 +228,9 @@ I want to help the scientists collect data easier and make the results of the sc
 <img src="/home/matt/r_programs/idfgSE/assets/img/image12.png" width=600px>
 </center>
 
+<div style="position:absolute;top:20px;right:170px">
+<img src="assets/img/sftrack-logo-200-white-bg.png" width=100px>
+</div>
 
 ---
 
@@ -223,7 +242,11 @@ I want to help the scientists collect data easier and make the results of the sc
 ---
 
 ## Thank you!
-
-You can view this presentation at : http://birderboone.github.io/idfgSE
-
-And find the assets at http://github.com/birderboone/idfgSE
+<div style="position:absolute;top:200px">
+<img src="assets/img/headshot.jpg" width = 200px>
+</div>
+<div style="position:absolute;top:500px">
+You can view this presentation at : <a>http://birderboone.github.io/idfgSE)</a>
+<br><br>
+And find the assets at <a>http://github.com/birderboone/idfgSE</a>
+</div>

@@ -47,7 +47,7 @@ kable_styling(latex_options =c("striped"), font_size=35) %>% column_spec(c(1,2),
 
 --- &vcenter bg:black
 <div style="color:white;font-size:50">
-Statement of purpose
+"I am a software developer trained as an ecologist that wants to build applications and software for biologists and the public. I want to make the time of scientists collecting data easier and the public seeing the results of the science faster."
 </div>
 
 ---

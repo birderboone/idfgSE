@@ -259,7 +259,7 @@ I want to help scientists collect data easier and make the science more accessib
 
 ---
 
-## Teaching
+## Data Consulting & Teaching
 <div style='position:absolute;right:250px'>
 <img src="assets/img/D3FmX4eXgAA6Eej.jpeg" width=750px>
 </div>

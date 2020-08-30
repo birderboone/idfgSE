@@ -23,33 +23,50 @@ knit        : "slidify::knit2slides"
 --- 
 
 ## History
-<div style="position:absolute;left:150px;top:200px">
-```{r, echo = FALSE}
-library(knitr)
-library(kableExtra)
-here <- data.frame(Time = c(
-  "2005 - 2009","2009 - 2013","2014 - 2016", "2016 - 2017", "2017 - 2019", "2018 - 2020"
-),
-Job = c(
-  "University of Texas (BSc Ecology, Evolution, & Behavior)",
-  "Field work",
-  "University of Delaware (MSc Wildlife Ecology)",
-  "Kauai Endangered Seabird Recovery Project (DB Manager & Analyst)",
-  "Independent Data Consultant",
-  "University of Florida - Ft. Lauderdale Extension Center (DB Manager & Analyst)"
-))
-kable(here, table.attr = "class=\"striped\" style='width:100%;'", 
-  format = "html") %>% row_spec(c(0,1,3,5), background = "white") %>% row_spec(c(2,4,6), background = 'lightgray') %>% 
-kable_styling(latex_options =c("striped"), font_size=35) %>% column_spec(c(1,2), border_left = "2px solid gray", border_right = "2px solid gray", include_thead =T)
-```
+
+<div style="position:absolute;left:150px;top:200px;border:3px solid gray;">
+<table class="striped table" style="width:100%; font-size: 35px; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;background-color: white !important;border-left:2px solid gray;border-right:2px solid gray;"> Time </th>
+   <th style="text-align:left;background-color: white !important;border-left:2px solid gray;border-right:2px solid gray;"> Job </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;background-color: white !important;border-left:2px solid gray;border-right:2px solid gray;"> 2005 - 2009 </td>
+   <td style="text-align:left;background-color: white !important;border-left:2px solid gray;border-right:2px solid gray;"> BSc Ecology, Evolution, Behavior - University of Texas </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;background-color: lightgray !important;border-left:2px solid gray;border-right:2px solid gray;"> 2009 - 2013 </td>
+   <td style="text-align:left;background-color: lightgray !important;border-left:2px solid gray;border-right:2px solid gray;"> Field work (Oregon, Nevada, Hawaii, etc...) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;background-color: white !important;border-left:2px solid gray;border-right:2px solid gray;"> 2014 - 2016 </td>
+   <td style="text-align:left;background-color: white !important;border-left:2px solid gray;border-right:2px solid gray;"> MSc Wildlife Ecology - University of Delaware </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;background-color: lightgray !important;border-left:2px solid gray;border-right:2px solid gray;"> 2016 - 2017 </td>
+   <td style="text-align:left;background-color: lightgray !important;border-left:2px solid gray;border-right:2px solid gray;"> DB Manager &amp; Analyst - Kauai Endangered Seabird Recovery Project (KESRP) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;background-color: white !important;border-left:2px solid gray;border-right:2px solid gray;"> 2017 - 2019 </td>
+   <td style="text-align:left;background-color: white !important;border-left:2px solid gray;border-right:2px solid gray;"> Independent Data Consultant - Porzana Data Solutions </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;background-color: lightgray !important;border-left:2px solid gray;border-right:2px solid gray;"> 2018 - 2020 </td>
+   <td style="text-align:left;background-color: lightgray !important;border-left:2px solid gray;border-right:2px solid gray;"> DB Manager &amp; Biologist - University of Florida : Ft. Lauderdale Extension Center </td>
+  </tr>
+</tbody>
+</table>
 </div>
 <!-- Want to mention the amount of agencies i've worked with --->
 
 --- &vcenter bg:black
 <div style="color:white;font-size:50">
-"I am a software developer trained as an ecologist that wants to build applications and software for biologists and the public. 
+"I am a software developer trained as an ecologist who wants to build applications and software for biologists and the public. 
 
-I want to help the scientists collect data easier and make the results of the science more accessible to the public."
+I want to help scientists collect data easier and make the science more accessible to the public."
 </div>
 
 ---
@@ -105,7 +122,7 @@ I want to help the scientists collect data easier and make the results of the sc
 </div>
 <div style='background-color: rgba(255,255,255,0.8); width:500px;"color:white"; position:absolute; right:210px;top:150px;z-index=100;border:3px solid black;color:#444;padding-right:10px;' >
 <ul>
-<li>Built in Shiny (r - html app interface)</li>
+<li>Built in Shiny (r/html app tool)</li>
 <li>Calculate nesting locations from GPS points</li>
 <li>Spatially explore points with Leaflet</li>
 <li>Available R package on github <a href=http:://github.com/picardis/nestR'>picardis/nestR</a></li>
@@ -120,7 +137,7 @@ I want to help the scientists collect data easier and make the results of the sc
 <!-- </div> -->
 <div style='background-color: rgba(255,255,255,0.8); width:500px;"color:white"; position:absolute; right:210px;top:145px;z-index=100;border:3px solid black;color:#444;padding-right:10px;margin-bottom:0px;' >
 <ul>
-<li>Built in Shiny (r - html app interface)</li>
+<li>Built in Shiny (r/html app tool)</li>
 <li>Help Tx eBird reviewers create accurate species filters for 254 counties</li>
 <li>Identify problematic county filters</li>
 <li>Explore species presence through time</li>
@@ -133,13 +150,14 @@ I want to help the scientists collect data easier and make the results of the sc
 
 ## Technology history
 
-- Masters : 
+- Masters (2014 - 2016) : 
  - <b>Windows OS</b>
  - <b>mySQL</b> for eBird analysis
  - Radar analysis in <b>arcGIS</b> and <b>R</b>
+ - Translated <b>SAS</b> code to R.
  
- <div style="position:absolute;top:0px;right:120px">
-<img src = "assets/img/UDsandy.png" width = 380px>
+ <div style="position:absolute;top:0px;right:140px;border:3px solid black;">
+<img src = "assets/img/UDsandy.png" width = 350px style='vertical-align:middle'>
 </div>
 
 ---
@@ -147,14 +165,14 @@ I want to help the scientists collect data easier and make the results of the sc
 ## Technology history
 
 - Masters : 
-- Kauai Endangered Seabird Recovery Project :
+- KESRP (2016 - 2017):
  - <b>Windows OS</b>
  - Field collection on <b>iPads</b> via <b>iForm</b>
  - Synced to an <b>AccessDB</b> via <b>VDB</b>
- - GUI using <b>arcGIS</b>
+ - Lab GUI in <b>arcGIS</b>
 
-<div style="position:absolute;top:200px;right:160px">
-<img src = "assets/img/HAPE_zoomout.png" width = 440px>
+<div style="position:absolute;top:160px;right:160px;border:3px solid black">
+<img src = "assets/img/HNP_sitemap.png" width = 420px style='vertical-align:middle'>
 </div>
 
 --- 
@@ -162,19 +180,26 @@ I want to help the scientists collect data easier and make the results of the sc
 ## Technology history
 <ul>
 <li>Masters :</li>
-<li>Kauai Endangered Seabird Recovery Project :</li>
-<li>UF - Ft. Lauderdale Extension : 
+<li>KESRP :</li>
+<li>UF - Ft. Lauderdale Extension (2018 - 2020) : 
  <ul>
-  
  <li><b>Linux (Ubuntu/Debian)</b></li>
  <li><b>postGRES</b>/<b>PostGIS</b> for data & raster layers</li>
- <li>Managed through <b>pgAdmin</b> and <b>R (RPostGIS)</b></li>
+ <li>Managed through <b>pgAdmin</b> and <b>R</b></li>
  <li>DBs connection to <b>QGIS</b></li>
- <li>Website/presentations using <b>Hugo</b>, <b>Jekyll</b>, & <b>slidy (this presentation!)</b></li>
- <li>Interactive <a href="https://rociojoo.github.io/mov-eco-review/">Bookdowns for Manuscripts</a></li>
+ <li>Version history in <b>git</b> stored on Github & GitLab</li>
+ <li>Website/presentations with <b>Html</b> & <b>CSS</b> using <b>Hugo</b>, <b>Jekyll</b>, & <b>Slidy</b> interfaces</b></li>
+ <li>Documentation and manuscripts written in <b>Markdown</b> typeset language
+  <ul>
+  <li>Interactive <a href="https://rociojoo.github.io/mov-eco-review/">Bookdowns for Manuscripts</a></li>
+  </ul>
  </ul>
 </li> 
 </ul> 
+
+ <div style="position:absolute;top:120px;right:170px;border:3px solid black">
+<img src = "assets/img/lbhe.png" width = 300px style='vertical-align:middle'>
+</div>
 
 --- 
 
@@ -190,9 +215,9 @@ I want to help the scientists collect data easier and make the results of the sc
 ## Software Development - Sftrack
 
 - Unifying standard for movement data in R
-- Continuous integration
-- Nightly Build 
-- Constant unit tests w/ travis
+- Continuous integration development
+- Nightly Build framework
+- Constant unit tests w/ <b>travis-ci</b>
 - Transparent build process
 - <a href="http://github.com/mablab/sftrack">github.com/mablab/sftrack</a>
 
@@ -201,8 +226,8 @@ I want to help the scientists collect data easier and make the results of the sc
 </div>
 
 
-<div style="position:absolute;right:160px;top:170px">
-<img src="assets/img/plot_zoom_png.png" width=540px>
+<div style="position:absolute;right:170px;top:220px;border:3px solid black">
+<img src="assets/img/plot_zoom_png.png" width=490px style="vertical-align:middle">
 </div>
 
 --- &vcenter bg:url(assets/img/background2.png);background-size:contain;
@@ -211,7 +236,7 @@ I want to help the scientists collect data easier and make the results of the sc
 
 ### Planning meetings and original outlines
 <center>
-<img src="assets/img/conceptual-model.png" width=500px>
+<img src="assets/img/conceptual-model.png" width=500px style = "border:3px solid black">
 </center>
 
 <div style="position:absolute;top:20px;right:170px">
@@ -225,7 +250,7 @@ I want to help the scientists collect data easier and make the results of the sc
 ### ... to Beta stage
 
 <center>
-<img src="assets/img/image12.png" width=600px>
+<img src="assets/img/image12.png" width=600px style="border:3px solid black">
 </center>
 
 <div style="position:absolute;top:20px;right:170px">
@@ -246,7 +271,7 @@ I want to help the scientists collect data easier and make the results of the sc
 <img src="assets/img/headshot.jpg" width = 200px>
 </div>
 <div style="position:absolute;top:500px">
-You can view this presentation at : <a>http://birderboone.github.io/idfgSE)</a>
+You can view this presentation at : <a>http://birderboone.github.io/idfgSE</a>
 <br><br>
 And find the assets at <a>http://github.com/birderboone/idfgSE</a>
 </div>

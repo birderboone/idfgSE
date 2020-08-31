@@ -188,7 +188,7 @@ I want to help scientists collect data easier and make the science more accessib
  <li>Managed through <b>pgAdmin</b> and <b>R</b></li>
  <li>DBs connection to <b>QGIS</b></li>
  <li>Version history in <b>git</b> stored on Github & GitLab</li>
- <li>Website/presentations with <b>Html</b> & <b>CSS</b> using <b>Hugo</b>, <b>Jekyll</b>, & <b>Slidy</b> interfaces</b></li>
+ <li><a href = "https://mablab.org/">Lab website</a>/presentations with <b>Html</b> & <b>CSS</b> using <b>Hugo</b>, <b>Jekyll</b>, & <b>Slidy</b> interfaces</b></li>
  <li>Documentation and manuscripts written in <b>Markdown</b> typeset language
   <ul>
   <li>Interactive <a href="https://rociojoo.github.io/mov-eco-review/">Bookdowns for Manuscripts</a></li>
@@ -257,12 +257,14 @@ I want to help scientists collect data easier and make the science more accessib
 <img src="assets/img/sftrack-logo-200-white-bg.png" width=100px>
 </div>
 
+<!--
 ---
 
 ## Data Consulting & Teaching
 <div style='position:absolute;right:250px'>
 <img src="assets/img/D3FmX4eXgAA6Eej.jpeg" width=750px>
 </div>
+--->
 
 ---
 
@@ -271,7 +273,7 @@ I want to help scientists collect data easier and make the science more accessib
 <img src="assets/img/headshot.jpg" width = 200px>
 </div>
 <div style="position:absolute;top:500px">
-You can view this presentation at : <a>http://birderboone.github.io/idfgSE</a>
+You can view this presentation at : <a href = "http://birderboone.github.io/idfgSE">http://birderboone.github.io/idfgSE</a>
 <br><br>
-And find the assets at <a>http://github.com/birderboone/idfgSE</a>
+And find the assets at <a href="http://github.com/birderboone/idfgSE">http://github.com/birderboone/idfgSE</a>
 </div>

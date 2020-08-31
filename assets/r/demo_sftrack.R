@@ -16,4 +16,4 @@ my_sftrack <- as_sftrack(data = raccoon, coords = c('longitude','latitude'),
 
 View(my_sftrack)
 
-head(my_sftrack)
+
